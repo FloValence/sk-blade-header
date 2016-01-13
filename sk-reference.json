@@ -1,0 +1,22 @@
+{
+  "header": {
+    "name": {
+      "type": "text",
+      "required": true
+    },
+    "menu": {
+        "type": "array",
+        "contentType": "link" 
+    },
+    "menuRight": {
+        "type": "array",
+        "contentType": "link" 
+    },
+    "logo": {
+        "type": "image"
+    },
+    "nameAndLogo": {
+        "type": "boolean" 
+    }
+  }
+}
